@@ -1,5 +1,5 @@
 // desk.mjs — the news desk: the day, its stories and what was left out.
-// Edition 1 was filed at about 00:45 UTC, so most of the day is still ahead: anything that had not
+// Edition 1 was filed at about 00:35 UTC, so most of the day is still ahead: anything that had not
 // happened yet is tagged FORECAST and says when it is due. Every item is dated 26 November 2026 (UTC)
 // in the report named as its source. Stories from other days are listed in LEFT_OUT, never above.
 
@@ -7,7 +7,7 @@ export const DAY = {
   big: '26 NOVEMBER 2026',
   weekday: 'THURSDAY',
   short: 'Thu 26 Nov 2026',
-  edition: 'EDITION 1 · FILED 00:45 UTC · THANKSGIVING DAY IN THE U.S.',
+  edition: 'EDITION 1 · FILED 00:35 UTC · THANKSGIVING DAY IN THE U.S.',
   foot:
     'Sources: Yonhap, Korea Times, Korea Herald, ABC News (Australia), Al Jazeera, EU Council, ECB, EFE, UEFA, FIFA, FIA, NFL, NBA, NHL, NBC New York, La Nación, IBGE, Cricket World, Rio Times, Hans India. Only events of Thursday 26 November 2026 (UTC).',
 };
